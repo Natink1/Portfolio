@@ -26,7 +26,7 @@ return(
                     delay: 0.2,
                     duration: 0.7
                 }} 
-                src="/src/images/Image.png" class="mx-auto w-100 md:w-160 ld:w-200 opacity-15 transition-all ease-linear hover:opacity-100 " />
+                src="/src/images/Image.png" class="mx-auto w-100 md:w-160 ld:w-200 opacity-15 transition-all ease-linear hover:opacity-100 focus:opacity-100" />
                 </div>
         </div>  
     )
