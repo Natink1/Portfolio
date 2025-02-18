@@ -1,0 +1,5 @@
+       {   pwhite: "#F0E3CA",
+          porange: "#FF8303",
+          sorange: "#A35709",
+          pblack: "#1B1A17",
+       }

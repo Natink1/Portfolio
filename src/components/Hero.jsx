@@ -16,7 +16,7 @@ return(
             <h1 class="text-orange-400 text-4xl md:text-5xl font-bold" >Hi, I am Natnael Deribe</h1> 
             <h2 class="text-white leading-15 text-2xl md:text-3xl" >IT Support Specialist &
              Motion Graphics Designer</h2>   
-             <button class=" mt-10 bg-orange-500 text-white w-35 h-12 rounded-lg transition-all hover:border border-orange-600 hover:bg-transparent hover:drop-shadow-[0_0_3px_rgba(255,145,1,1)]">Email Me</button>
+             <button class=" mt-10 bg-orange-500 text-white w-35 h-12 rounded-lg transition-all duration-300 hover:border border-orange-600 hover:bg-transparent hover:drop-shadow-[0_0_3px_rgba(255,145,1,1)]">Email Me</button>
              </motion.div>
 
             <div >
