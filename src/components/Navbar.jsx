@@ -27,7 +27,7 @@ const Navbar = () => {
 
                         {items.map(({ id, text }) => (
 
-                            <li className="hover:text-orange-400"
+                            <li className="hover:text-orange-400 text-xl"
                                 key={id}>{text}</li>
                         ))}
                     </ul>
