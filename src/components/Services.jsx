@@ -53,23 +53,3 @@ const Services = () => {
 }
 
 export default Services
-
-
-
-{/* <Cards title="Maintainance" text="Lorem ipsum dolor sit amet, consectetur
-ad ipisicing elit, sed do eiusmod tempo
-r incididunt ut labore "/>
-             <Cards title="Support" text="Lorem ipsum dolor sit amet, consectetur
-ad ipisicing elit, sed do eiusmod tempo
-r incididunt ut labore "/>
-         </div>
-         <div class="flex justify-center gap-10 ">
-             <Cards title="Graphics" text="Lorem ipsum dolor sit amet, consectetur
-ad ipisicing elit, sed do eiusmod tempo
-r incididunt ut labore "/>
-             <Cards title="Maintainance" text="Lorem ipsum dolor sit amet, consectetur
-ad ipisicing elit, sed do eiusmod tempo
-r incididunt ut labore "/>
-             <Cards title="Support" text="Lorem ipsum dolor sit amet, consectetur
-ad ipisicing elit, sed do eiusmod tempo
-r incididunt ut labore "/> */}
