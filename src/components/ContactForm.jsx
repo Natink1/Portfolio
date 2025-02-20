@@ -5,7 +5,7 @@ const ContactForm = () => {
 
     <div className=" min-h-screen flex flex-col items-center justify-center py-12 px-6">
       <div className="rounded-lg shadow-md p-8 w-250">
-        <h2 className="text-2xl font-bold text-white mb-6 text-center">Get in touch</h2> {/* Title */}
+        <h2 className="text-5xl font-bold text-white mb-6 text-center">Get in touch</h2> {/* Title */}
 
         <form className="space-y-4">
           <div className="grid grid-cols-2 gap-4"> {/* Grid for name fields */}
@@ -13,7 +13,7 @@ const ContactForm = () => {
               <label htmlFor="firstName" className="block text-white text-sm text-xl">Name</label>
               <input type="text" id="firstName" className="mt-1 p-2 w-full  rounded-md bg-[#333] text-white focus: focus:border-indigo-500" />
             </div>
-            
+
             <div>
               <label htmlFor="lastName" className="block text-white text-sm text-xl">Last name</label>
               <input type="text" id="lastName" className="mt-1 p-2 w-full border-[#ffffffc2] rounded-md bg-[#333] text-white focus:ring-indigo-500 focus:border-indigo-500" />
