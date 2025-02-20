@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Hero = () => {
 
 return(
-        <div class="py-25  px-35 flex justify-between" >
+        <div class="py-25  px-50 flex md:flex-row justify-between sm:flex-col items-center " >
             <motion.div
             initial={{opacity:0, x:-100}}
             animate={{opacity:1, x:0}}
@@ -12,7 +12,7 @@ return(
                 delay: 0.3,
                 duration: 0.8
             }}
-            class="pt-50 container mx-auto "  >
+            class="pt-50 container "  >
             <h1 class="text-[#FF8303] text-4xl md:text-6xl font-bold" >Hi, I am Natnael Deribe</h1> 
             <h2 class="text-white leading-15 text-2xl md:text-3xl" >IT Support Specialist &
              Motion Graphics Designer</h2>   

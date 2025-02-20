@@ -4,7 +4,6 @@ import Cards from './Cards'
 
 const Services = () => {
 
-
     const ServiceData = [
     {
         title: "Graphics",

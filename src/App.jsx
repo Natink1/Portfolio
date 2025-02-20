@@ -5,6 +5,9 @@ import './App.css'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
+import Works from './components/Works'
+import ContactForm from './components/ContactForm'
+
 
 function App() {
 
@@ -17,8 +20,12 @@ function App() {
       <AboutMe />
       <Experience />
       <Skills />
+      <Works />
+      <ContactForm />
+      
       </div>
   )
 }
+
 
 export default App
