@@ -1,7 +1,6 @@
-body {
-    background-color: #121212;
+body{
+       background-color: #121212;
     font-family: League Spartan, sans-serif;
 }
-
 
 @import "tailwindcss/utilities";

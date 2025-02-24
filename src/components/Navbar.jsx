@@ -33,7 +33,7 @@ const Navbar = () => {
               to="Aboutme"
               smooth={true}
               duration={800}
-              className="hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
             >
               About Me
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
               to="My_Skills"
               smooth={true}
               duration={800}
-              className="hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
             >
               My Skills
             </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
               to="Works"
               smooth={true}
               duration={800}
-              className="hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
             >
               Works
             </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               to="Contactme"
               smooth={true}
               duration={800}
-              className="hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
             >
               Contact Me
             </Link>
