@@ -57,7 +57,7 @@ const Skills = () => {
 
   return (
 
-    <div>
+    <div id="My_Skills">
     <div>
 
         <h1 class="text-center text-white font-bold text-6xl pt-10">Skills</h1>

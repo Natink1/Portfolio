@@ -1,9 +1,9 @@
 import React from 'react';
-
+import {motion } from "framer-motion"
 const ContactForm = () => {
   return (
 
-    <div className=" min-h-screen flex flex-col items-center justify-center py-12 px-6">
+    <div id="Contactme" className=" min-h-screen flex flex-col items-center justify-center py-12 px-6">
       <div className="rounded-lg shadow-md p-8 w-250">
         <h2 className="text-5xl font-bold text-white mb-6 text-center">Get in touch</h2> {/* Title */}
 

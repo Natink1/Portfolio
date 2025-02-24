@@ -3,7 +3,7 @@ import React from 'react'
 const Experience = () => {
   return (
     
-    <div className="px-50 flex flex-col justify-center">
+    <div id="Experience" className="px-50 flex flex-col justify-center">
 
       <div>
         <h1 className="text-center text-white font-bold text-6xl pt-15">Experience</h1>
