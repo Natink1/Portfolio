@@ -64,14 +64,14 @@ const Skills = () => {
         <p class="text-center text-white leading-10 pt-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
     </div>
 
-    <div className="px-90 py-5 ">
-    <div className="bg-[#212121] rounded-4xl h-150 grid grid-cols-5 justify-between p-10 ">
+    <div className="px-75 py-5 ">
+    <div className="bg-[#212121] rounded-4xl h-150 grid grid-cols-5 justify-between p-5 ">
     {
                 skillImg.map((Skills, index) => (
 
                 <div key={index} className="py-10 place-self-center">
                    <div className="text-center"> 
-                    <img className="w-25"src={Skills.img}>
+                    <img className="w-25 hover:scale-110 transition-all duration-150"src={Skills.img}>
                  </img>
                  <h1 className="pt-5 text-white text-xl text-center"  >{Skills.title}</h1>
                  </div>

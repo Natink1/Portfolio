@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="container mx-auto md:flex justify-between items-center py-6">
-        <div className="text-xl font-bold flex items-center gap-1">
+        <div className="text-xl pl-25 font-bold flex items-center gap-1">
           <span className="text-orange-400">Portfolio</span>
         </div>
         <div>
@@ -17,7 +17,7 @@ const Navbar = () => {
               to="/"
               smooth={true}
               duration={800}
-              className="hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150 "
+              className="cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear"
             >
               Home
             </Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
               to="Services"
               smooth={true}
               duration={800}
-              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear "
             >
               Services
             </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
               to="Aboutme"
               smooth={true}
               duration={800}
-              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear "
             >
               About Me
             </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
               to="My_Skills"
               smooth={true}
               duration={800}
-              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear "
             >
               My Skills
             </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
               to="Works"
               smooth={true}
               duration={800}
-              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear "
             >
               Works
             </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               to="Contactme"
               smooth={true}
               duration={800}
-              className=" cursor-pointer hover:text-orange-400 text-xl hover:font-bold transition-all ease-linear duration-150"
+              className=" cursor-pointer text-xl hover:text-orange-400 hover:scale-105 transition-all duration-150 ease-linear "
             >
               Contact Me
             </Link>

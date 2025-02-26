@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Hero = () => {
 
 return(
-        <div class="py-25  px-50 flex md:flex-row justify-between sm:flex-col items-center " >
+        <div class="py-20  px-30 flex flex-row justify-between items-center " >
             <motion.div
             initial={{opacity:0, x:-100}}
             animate={{opacity:1, x:0}}
@@ -26,7 +26,7 @@ return(
                     delay: 0.2,
                     duration: 0.7
                 }} 
-                src="/src/images/Image.png" class="mx-auto w-100 md:w-200 ld:w-200 opacity-30 transition-all ease-linear duration-300 hover:opacity-100 cursor-pointer" />
+                src="/src/images/Image.png" class="mx-auto w-100 md:w-170 opacity-30 transition-all ease-linear duration-300 hover:opacity-100 cursor-pointer" />
                 </div>
         </div>  
     )
